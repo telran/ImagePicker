@@ -196,9 +196,9 @@ public class MultiImageChooserActivity extends AppCompatActivity implements
         if (maxImages == 0 && isChecked) {
             isChecked = false;
             new AlertDialog.Builder(this)
-                    .setTitle("aaa Maximum " + maxImageCount + " Photos")
+                    .setTitle(String.format(getString(fakeR.getId("string", "multi_image_picker_max_photos_title")), maxImageCount))
                     .setMessage("bbb You can only select " + maxImageCount + " photos at a time.")
-                    .setPositiveButton("ccc OK", new DialogInterface.OnClickListener() {
+                    .setPositiveButton(getString(fakeR.getId("string", "done")), new DialogInterface.OnClickListener() {
                         public void onClick(DialogInterface dialog, int which) {
                             dialog.cancel();
                         }
