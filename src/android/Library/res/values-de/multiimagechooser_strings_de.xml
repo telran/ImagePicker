@@ -6,4 +6,6 @@
     <string name="requesting_thumbnails">Vorschaubilder werden geladen, bitte haben Sie etwas Geduld</string>
     <string name="multi_image_picker_processing_images_title">Bilder werden verarbeitet</string>
     <string name="multi_image_picker_processing_images_message">Dies kann einen Momenent dauern</string>
+    <string name="discard">Abbrechen</string>
+    <string name="done">OK</string>
 </resources>
