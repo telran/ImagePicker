@@ -52,6 +52,7 @@ import android.content.CursorLoader;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.Loader;
+import android.content.pm.ActivityInfo;
 import android.database.Cursor;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
@@ -128,7 +129,7 @@ public class MultiImageChooserActivity extends AppCompatActivity implements
         fakeR = new FakeR(this);
         setContentView(fakeR.getId("layout", "multiselectorgrid"));
         fileNames.clear();
-
+	    
         maxImages = getIntent().getIntExtra(MAX_IMAGES_KEY, NOLIMIT);
         desiredWidth = getIntent().getIntExtra(WIDTH_KEY, 0);
         desiredHeight = getIntent().getIntExtra(HEIGHT_KEY, 0);
@@ -318,6 +319,7 @@ public class MultiImageChooserActivity extends AppCompatActivity implements
             progress.dismiss();
             finish();
         } else {
+	    setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LOCKED);
             new ResizeImagesTask().execute(fileNames.entrySet());
         }
     }
