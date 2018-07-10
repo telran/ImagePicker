@@ -4,7 +4,10 @@
   "cordova_name": "ImagePicker",
   "description": "This plugin allows selection of multiple images from the camera roll / gallery in a phonegap app",
   "license": "MIT",
-  "repo": "https://github.com/telran/cordova-plugin-telran-imagepicker",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/telran/cordova-plugin-telran-imagepicker"
+  },
   "issue": "",
   "keywords": [],
   "platforms": [
