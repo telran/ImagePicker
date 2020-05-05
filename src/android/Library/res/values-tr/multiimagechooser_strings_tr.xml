@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="multi_app_name">MultiImageChooser</string>
+    <string name="free_version_label">Ücretsiz sürüm - Yalnızca% d resim seçilebilir</string>
+    <string name="error_database">Görüntü veritabanı açılırken bir hata oluştu. Lütfen bu sorunu bildirin.</string>
+    <string name="requesting_thumbnails">Küçük resimler yükleniyor, lütfen sabırlı olun</string>
+    <string name="multi_image_picker_processing_images_title">Görüntüler işleniyor</string>
+    <string name="multi_image_picker_processing_images_message">Bu biraz zaman alabilir</string>
+    <string name="multi_image_picker_max_photos_title">Maksimum% D resim</string>
+    <string name="multi_image_picker_max_photos_message">Bir kerede yalnızca% d görüntü seçebilirsiniz.</string>
+    <string name="discard">Iptal</string>
+    <string name="done">Tamam</string>
+</resources>

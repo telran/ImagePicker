@@ -1,0 +1,33 @@
+/* Cancel */
+"picker.navigation.cancel-button" = "Iptal";
+
+/* Done */
+"picker.navigation.done-button" = "Hazır";
+
+/* Navigation bar default title */
+"picker.navigation.title" = "GMImagePicker";
+
+/* %@ Items Selected */
+"picker.selection.multiple-items" = "%@ nesne seçildi";
+
+/* %@ Photos Selected */
+"picker.selection.multiple-photos" = "%1$@ fotoğraf seçildi";
+
+/* %@ Videos Selected */
+"picker.selection.multiple-videos" = "%@ video seçildi";
+
+/* 1 Photo Selected */
+"picker.selection.single-photo" = "1 fotoğraf seçildi";
+
+/* 1 Video Selected */
+"picker.selection.single-video" = "1 video seçildi";
+
+/* All photos */
+"picker.table.all-photos-label" = "kayıtları";
+
+/* Smart Albums */
+"picker.table.smart-albums-header" = "AKILLI KOLEKSİYONLAR";
+
+/* Albums */
+"picker.table.user-albums-header" = "KOLEKSİYONLAR";
+

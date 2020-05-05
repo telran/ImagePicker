@@ -1,0 +1,32 @@
+/* Cancel */
+"picker.navigation.cancel-button" = "キャンセル";
+
+/* Done */
+"picker.navigation.done-button" = "決定";
+
+/* Navigation bar default title */
+"picker.navigation.title" = "画像選択";
+
+/* %@ Items Selected */
+"picker.selection.multiple-items" = "%@ アイテム 選択";
+
+/* %@ Photos Selected */
+"picker.selection.multiple-photos" = "%@ 写真 選択";
+
+/* %@ Videos Selected */
+"picker.selection.multiple-videos" = "%@ ビデオ 選択";
+
+/* 1 Photo Selected */
+"picker.selection.single-photo" = "1 写真 選択";
+
+/* 1 Video Selected */
+"picker.selection.single-video" = "1 ビデオ 選択";
+
+/* All photos */
+"picker.table.all-photos-label" = "すべての写真";
+
+/* Smart Albums */
+"picker.table.smart-albums-header" = "インテリジェント コレクション";
+
+/* Albums */
+"picker.table.user-albums-header" = "コレクション";
